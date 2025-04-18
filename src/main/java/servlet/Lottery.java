@@ -18,7 +18,7 @@ public class Lottery extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		Random random = new Random();
 		Set<Integer> numbers = new TreeSet<>();
-		while (numbers.size()<5) {
+		while (numbers.size()<3) {
 			numbers.add(random.nextInt(39)+1);
 		}
 		//resp.getWriter().print(numbers);

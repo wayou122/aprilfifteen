@@ -9,5 +9,9 @@
 <body>
 	<h1>My Java Web Page.</h1>
 	<p>good bye</p>
+	<ol>
+		<li><a href="/JavaWeb/hello">HelloServlet</a></li>
+		<li><a href="/JavaWeb/lottery">Lottery Page</a></li>
+	</ol>
 </body>
 </html>
